@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(42, 165, 97, 0.548);
+    
+}
+
+.topo {
+    background-image: url("callcenter.png");
+    background-size: cover;
+    background-position: cover;
+    height: 99%;
+    width: 99%;
+    background-position: 100%;
+    opacity: 0.3;
+    position: absolute;
+}
+
+img.helpdesk {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+div.login {
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+input#login, #senha {
+    display: flex;
+    margin: 25px;
+    width: 275px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#enviar {
+    display: flex;
+    margin: auto;
+    width: 275px;
+    height: 30px;
+    justify-content: center;
+    background-color: rgba(110, 223, 110, 0.797);
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#enviar:hover {
+    background-color: rgba(78, 190, 78, 0.797);
+    cursor: pointer;
+}
+
+.select {
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
